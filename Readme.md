@@ -22,4 +22,4 @@ Enjoy!
 
 #### Notes
 
-Since postcss-class-prefix plugins for postcss is not maintained any more. I took the latest version and PRs and merge manually and put into ext_vendor directory.
+Since postcss-class-prefix plugin for postcss is not maintained any more. I took the latest version and PRs and merge manually and put into ext_vendor directory.
