@@ -1,7 +1,7 @@
 ## Goal
 This project is use to add custom prefix to every bulma css class.
 
-**This project use Bulma Version 0.6.0**
+**This project use Bulma Version 0.6.0
 
 ##How to use
 1. Fork this repository...
