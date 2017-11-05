@@ -1,0 +1,59 @@
+.Component .s-ignore {
+  color: red;
+}
+
+.Component .s-also-ignore {
+  font-size: 16px;
+}
+
+.Component .j-do-not-ignore {
+  margin: 0;
+}
+
+.BoxWide, .BoxSmall {
+  margin: 0;
+}
+
+.no-flexbox .Component {
+  display: block;
+}
+
+.no-fontface .Component {
+  font-size: 12px;
+}
+
+element.no-flexbox {
+    color: white;
+}
+
+element .no-flexbox {
+    color: white;
+}
+
+.no-flexbox element .Component {
+    color: white;
+}
+
+.no-flexbox element.Component {
+    color: white;
+}
+
+.no-flexbox.Component {
+    color: white;
+}
+
+.no-flexbox:not(.Component) {
+    color: white;
+}
+
+.no-flexbox>.Component {
+    color: white;
+}
+
+*[class^="no-flexbox"] {
+    color: white;
+}
+
+*[class^="no-flexbox"] *[class^="no-flexbox"] *[class^="Component"] {
+    color: white;
+}

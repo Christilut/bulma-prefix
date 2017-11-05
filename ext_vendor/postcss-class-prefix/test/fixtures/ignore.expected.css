@@ -1,0 +1,59 @@
+.prfx-Component .s-ignore {
+  color: red;
+}
+
+.prfx-Component .s-also-ignore {
+  font-size: 16px;
+}
+
+.prfx-Component .prfx-j-do-not-ignore {
+  margin: 0;
+}
+
+.BoxWide, .BoxSmall {
+  margin: 0;
+}
+
+.no-flexbox .prfx-Component {
+  display: block;
+}
+
+.no-fontface .prfx-Component {
+  font-size: 12px;
+}
+
+element.no-flexbox {
+    color: white;
+}
+
+element .no-flexbox {
+    color: white;
+}
+
+.no-flexbox element .prfx-Component {
+    color: white;
+}
+
+.no-flexbox element.prfx-Component {
+    color: white;
+}
+
+.no-flexbox.prfx-Component {
+    color: white;
+}
+
+.no-flexbox:not(.prfx-Component) {
+    color: white;
+}
+
+.no-flexbox>.prfx-Component {
+    color: white;
+}
+
+*[class^="no-flexbox"] {
+    color: white;
+}
+
+*[class^="no-flexbox"] *[class^="no-flexbox"] *[class^="prfx-Component"] {
+    color: white;
+}

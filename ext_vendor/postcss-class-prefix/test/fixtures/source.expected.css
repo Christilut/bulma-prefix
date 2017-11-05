@@ -1,0 +1,43 @@
+.prfx-my-class {
+  color: green;
+}
+
+.prfx-my-class .prfx-with-another-class {
+  box-sizing: border-box;
+}
+
+element.prfx-class {
+    color: white;
+}
+
+element .prfx-class {
+    color: white;
+}
+
+.prfx-class element .prfx-otherclass {
+    color: white;
+}
+
+.prfx-class element.prfx-otherclass {
+    color: white;
+}
+
+.prfx-class.prfx-otherclass {
+    color: white;
+}
+
+.prfx-class:not(.prfx-otherclass) {
+    color: white;
+}
+
+.prfx-class>.prfx-otherclass {
+    color: white;
+}
+
+*[class^="prfx-col-"] {
+    color: white;
+}
+
+*[class^="prfx-col-"] *[class^="prfx-col-"] *[class^="prfx-col2-"] {
+    color: white;
+}

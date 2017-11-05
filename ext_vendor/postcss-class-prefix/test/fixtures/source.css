@@ -1,0 +1,43 @@
+.my-class {
+  color: green;
+}
+
+.my-class .with-another-class {
+  box-sizing: border-box;
+}
+
+element.class {
+    color: white;
+}
+
+element .class {
+    color: white;
+}
+
+.class element .otherclass {
+    color: white;
+}
+
+.class element.otherclass {
+    color: white;
+}
+
+.class.otherclass {
+    color: white;
+}
+
+.class:not(.otherclass) {
+    color: white;
+}
+
+.class>.otherclass {
+    color: white;
+}
+
+*[class^="col-"] {
+    color: white;
+}
+
+*[class^="col-"] *[class^="col-"] *[class^="col2-"] {
+    color: white;
+}
