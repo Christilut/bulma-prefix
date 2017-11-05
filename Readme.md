@@ -1,4 +1,7 @@
+## Goal
 This project is use to add custom prefix to every bulma css class.
+
+**This project use Bulma Version 0.6.0**
 
 ##How to use
 1. Fork this repository...
@@ -16,3 +19,7 @@ require('./ext_vendor/postcss-class-prefix')('custom-prefix-')
 6. grab your final css from dist folder
 
 Enjoy!
+
+####Notes
+
+Since postcss-class-prefix plugins for postcss is not maintained any more. I took the latest version and PRs and merge manually and put into ext_vendor directory.
